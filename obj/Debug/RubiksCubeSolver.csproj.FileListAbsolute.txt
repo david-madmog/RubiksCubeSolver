@@ -1,0 +1,9 @@
+c:\users\davidp\documents\visual studio 2017\Projects\RubiksCubeSolver\RubiksCubeSolver\bin\Debug\RubiksCubeSolver.exe.config
+c:\users\davidp\documents\visual studio 2017\Projects\RubiksCubeSolver\RubiksCubeSolver\bin\Debug\RubiksCubeSolver.exe
+c:\users\davidp\documents\visual studio 2017\Projects\RubiksCubeSolver\RubiksCubeSolver\bin\Debug\RubiksCubeSolver.pdb
+c:\users\davidp\documents\visual studio 2017\Projects\RubiksCubeSolver\RubiksCubeSolver\obj\Debug\RubiksCubeSolver.csprojResolveAssemblyReference.cache
+c:\users\davidp\documents\visual studio 2017\Projects\RubiksCubeSolver\RubiksCubeSolver\obj\Debug\RubiksCubeSolver.frmMain.resources
+c:\users\davidp\documents\visual studio 2017\Projects\RubiksCubeSolver\RubiksCubeSolver\obj\Debug\RubiksCubeSolver.Properties.Resources.resources
+c:\users\davidp\documents\visual studio 2017\Projects\RubiksCubeSolver\RubiksCubeSolver\obj\Debug\RubiksCubeSolver.csproj.GenerateResource.Cache
+c:\users\davidp\documents\visual studio 2017\Projects\RubiksCubeSolver\RubiksCubeSolver\obj\Debug\RubiksCubeSolver.exe
+c:\users\davidp\documents\visual studio 2017\Projects\RubiksCubeSolver\RubiksCubeSolver\obj\Debug\RubiksCubeSolver.pdb
