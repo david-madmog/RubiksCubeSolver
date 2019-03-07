@@ -1,0 +1,9 @@
+C:\Users\davidp\documents\visual studio 2017\Projects\RubiksCubeSolver\RubiksCubeSolver\bin\Release\RubiksCubeSolver.exe.config
+C:\Users\davidp\documents\visual studio 2017\Projects\RubiksCubeSolver\RubiksCubeSolver\bin\Release\RubiksCubeSolver.exe
+C:\Users\davidp\documents\visual studio 2017\Projects\RubiksCubeSolver\RubiksCubeSolver\bin\Release\RubiksCubeSolver.pdb
+C:\Users\davidp\documents\visual studio 2017\Projects\RubiksCubeSolver\RubiksCubeSolver\obj\Release\RubiksCubeSolver.frmMain.resources
+C:\Users\davidp\documents\visual studio 2017\Projects\RubiksCubeSolver\RubiksCubeSolver\obj\Release\RubiksCubeSolver.Properties.Resources.resources
+C:\Users\davidp\documents\visual studio 2017\Projects\RubiksCubeSolver\RubiksCubeSolver\obj\Release\RubiksCubeSolver.SimpleInput.resources
+C:\Users\davidp\documents\visual studio 2017\Projects\RubiksCubeSolver\RubiksCubeSolver\obj\Release\RubiksCubeSolver.csproj.GenerateResource.Cache
+C:\Users\davidp\documents\visual studio 2017\Projects\RubiksCubeSolver\RubiksCubeSolver\obj\Release\RubiksCubeSolver.exe
+C:\Users\davidp\documents\visual studio 2017\Projects\RubiksCubeSolver\RubiksCubeSolver\obj\Release\RubiksCubeSolver.pdb

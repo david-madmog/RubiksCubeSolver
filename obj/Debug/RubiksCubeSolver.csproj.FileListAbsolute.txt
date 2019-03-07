@@ -7,3 +7,4 @@ c:\users\davidp\documents\visual studio 2017\Projects\RubiksCubeSolver\RubiksCub
 c:\users\davidp\documents\visual studio 2017\Projects\RubiksCubeSolver\RubiksCubeSolver\obj\Debug\RubiksCubeSolver.csproj.GenerateResource.Cache
 c:\users\davidp\documents\visual studio 2017\Projects\RubiksCubeSolver\RubiksCubeSolver\obj\Debug\RubiksCubeSolver.exe
 c:\users\davidp\documents\visual studio 2017\Projects\RubiksCubeSolver\RubiksCubeSolver\obj\Debug\RubiksCubeSolver.pdb
+C:\Users\davidp\documents\visual studio 2017\Projects\RubiksCubeSolver\RubiksCubeSolver\obj\Debug\RubiksCubeSolver.SimpleInput.resources

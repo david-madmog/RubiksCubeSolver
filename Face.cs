@@ -3,18 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Drawing;
 
 namespace RubiksCubeSolver
 {
-    class Face
+    partial class Face
     {
         private int[,] Cells;
-        public System.Windows.Forms.PictureBox MyDrawBox;
-        private Color[] CellColours =
-        {
-            Color.Blue, Color.White, Color.Orange, Color.Green, Color.Red, Color.Yellow
-        };
+        public FaceRender Renderer = new FaceRender();
 
         public Face(int Colour)
         {
@@ -26,22 +21,16 @@ namespace RubiksCubeSolver
                 }
         }
 
+        public Face()
+        {
+            Cells = new int[3, 3];
+        }
+
         public void Draw()
         {
-            if (!(MyDrawBox is null))
+            if (!(Renderer is null))
             {
-                Graphics G = MyDrawBox.CreateGraphics();
-                int X = MyDrawBox.Width / 3;
-                int Y = MyDrawBox.Height / 3;
-                Pen P = Pens.Black;
-
-                for (int i = 0; i < 3; i++)
-                    for (int j = 0; j < 3; j++)
-                    {
-                        Brush B = new SolidBrush(CellColours[Cells[j, i]]);
-                        G.FillRectangle(B, X * i, Y * j, X, Y);
-                        G.DrawRectangle(P, X * i, Y * j, X, Y);
-                    }
+                Renderer.Draw(this);
             }
         }
 
@@ -103,6 +92,28 @@ namespace RubiksCubeSolver
                 Cells[0, 1] = i;
             }
         }
+
+        public void CopyFrom(Face F)
+        {
+            for (int i = 0; i < 3; i++)
+                for (int j = 0; j < 3; j++)
+                {
+                    Cells[i, j] = F.Cells[i,j];
+                }
+
+        }
+
+        public bool IsSolved()
+        {
+            for (int i = 0; i < 3; i++)
+                for (int j = 0; j < 3; j++)
+                {
+                    if (Cells[i, j] != Cells[0,0])
+                        return false;
+                }
+            return true;
+        }
+
     }
 
 }

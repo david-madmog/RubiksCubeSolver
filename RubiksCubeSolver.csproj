@@ -47,6 +47,7 @@
   <ItemGroup>
     <Compile Include="clsCube.cs" />
     <Compile Include="Face.cs" />
+    <Compile Include="FaceRender.cs" />
     <Compile Include="frmMain.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -55,6 +56,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SimpleInput.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SimpleInput.Designer.cs">
+      <DependentUpon>SimpleInput.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="frmMain.resx">
       <DependentUpon>frmMain.cs</DependentUpon>
     </EmbeddedResource>
@@ -67,6 +74,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="SimpleInput.resx">
+      <DependentUpon>SimpleInput.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
